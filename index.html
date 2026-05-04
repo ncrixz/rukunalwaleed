@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b3d66" />
+  <title>مؤسسة ركن الوليد للتبريد والتكييف | Rukn Al Waleed Refrigeration & AC — Tabuk</title>
+  <meta name="description" content="مؤسسة ركن الوليد للتبريد والتكييف في تبوك — إصلاح وصيانة المكيفات والثلاجات: تعبئة الفريون، فحص كهربائي، تنظيف عام، معايرة الثرموستات، كشف وإصلاح التسريبات." />
+  <meta name="keywords" content="ركن الوليد, تكييف تبوك, صيانة مكيفات, تعبئة فريون, إصلاح ثلاجات, AC repair Tabuk, HVAC Tabuk, refrigeration service" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="مؤسسة ركن الوليد للتبريد والتكييف — تبوك" />
+  <meta property="og:description" content="خدمات إصلاح وصيانة التكييف والتبريد في تبوك. ابقَ بارداً، تنفّس بنقاء." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1631545806609-26eb84d9c9e9?w=1200&q=80&auto=format&fit=crop" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__contact">
+        <a href="tel:+966508301100" aria-label="اتصل بنا">
+          <span class="i">☎</span>
+          <span>+966 50 830 1100</span>
+        </a>
+        <span class="sep">•</span>
+        <span class="topbar__hours">
+          <span class="i">🕒</span>
+          <span data-i18n="topbar.hours">يومياً حتى 11:30 مساءً</span>
+        </span>
+      </div>
+      <div class="topbar__lang">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span data-i18n="topbar.langToggle">English</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" id="siteHeader">
+    <div class="container header__inner">
+      <a href="#home" class="brand">
+        <img src="/assets/img/logo.svg" alt="ركن الوليد" class="brand__logo" />
+        <div class="brand__text">
+          <strong data-i18n="brand.name">مؤسسة ركن الوليد</strong>
+          <small data-i18n="brand.tag">للتبريد والتكييف</small>
+        </div>
+      </a>
+
+      <nav class="nav" id="siteNav">
+        <a href="#home" data-i18n="nav.home">الرئيسية</a>
+        <a href="#services" data-i18n="nav.services">خدماتنا</a>
+        <a href="#about" data-i18n="nav.about">من نحن</a>
+        <a href="#why" data-i18n="nav.why">لماذا نحن</a>
+        <a href="#gallery" data-i18n="nav.gallery">المعرض</a>
+        <a href="#contact" data-i18n="nav.contact">اتصل بنا</a>
+        <a href="tel:+966508301100" class="btn btn--primary nav__cta" data-i18n="nav.cta">اتصل الآن</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="badge">
+          <span class="rating">★ 4.8</span>
+          <span data-i18n="hero.badge">تقييم العملاء على Google</span>
+        </span>
+        <h1 data-i18n="hero.title">ابقَ بارداً، تنفّس بنقاء</h1>
+        <p class="hero__lead" data-i18n="hero.lead">خدمات إصلاح وصيانة التكييف والتبريد في تبوك</p>
+        <p data-i18n="hero.subtitle">
+          مؤسسة ركن الوليد للتبريد والتكييف — مركز متخصص في إصلاح وصيانة المكيفات والثلاجات والمبردات. تعبئة فريون، فحص كهربائي، تنظيف عام، معايرة ثرموستات، وكشف تسريبات بأيدي فنيين خبراء وضمان على كل عمل.
+        </p>
+        <div class="hero__cta">
+          <a href="tel:+966508301100" class="btn btn--primary" data-i18n="hero.ctaPrimary">☎ اتصل الآن: 0508301100</a>
+          <a href="#services" class="btn btn--ghost" data-i18n="hero.ctaSecondary">تعرّف على خدماتنا</a>
+        </div>
+        <div class="hero__stats">
+          <div><strong>4.8★</strong><span data-i18n="hero.statRating">تقييم Google</span></div>
+          <div><strong>+15</strong><span data-i18n="hero.statYears">سنة خبرة</span></div>
+          <div><strong>11:30م</strong><span data-i18n="hero.statHours">حتى آخر اليوم</span></div>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img src="https://images.unsplash.com/photo-1631545806609-26eb84d9c9e9?w=900&q=80&auto=format&fit=crop"
+             alt="فني تكييف يقوم بصيانة وحدة خارجية" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-i18n="services.eyebrow">خدماتنا</span>
+        <h2 data-i18n="services.title">باقة خدماتنا للتبريد والتكييف</h2>
+        <p data-i18n="services.subtitle">
+          نقدم خدمات إصلاح وصيانة شاملة تجمع بين الخبرة الفنية والأدوات الحديثة، لضمان عودة جهازك إلى أفضل أداء بأقل وقت ممكن.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card">
+          <div class="card__icon">💨</div>
+          <h3 data-i18n="services.s1.t">تعبئة غاز الفريون</h3>
+          <p data-i18n="services.s1.d">إعادة شحن وتعبئة جميع أنواع غازات التبريد (R22, R410A, R32) بالكميات الصحيحة، مع فحص الضغط والأداء قبل التسليم.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">⚡</div>
+          <h3 data-i18n="services.s2.t">الفحص الكهربائي</h3>
+          <p data-i18n="services.s2.d">فحص شامل للوحات الكهربائية والمكثفات والمراوح والكومبريسور، لاكتشاف الأعطال قبل أن تتسبب في تعطل كامل للجهاز.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🧴</div>
+          <h3 data-i18n="services.s3.t">التنظيف العام للمكيفات</h3>
+          <p data-i18n="services.s3.d">تنظيف عميق للوحدة الداخلية والخارجية: المكثفات، المبخر، الفلاتر، ومجاري التصريف لتحسين الكفاءة وجودة الهواء.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🌡️</div>
+          <h3 data-i18n="services.s4.t">معايرة الثرموستات</h3>
+          <p data-i18n="services.s4.d">ضبط ومعايرة دقيقة لأجهزة الترموستات لضمان قراءة صحيحة لدرجة الحرارة والحفاظ على راحة المكان وتقليل استهلاك الكهرباء.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🔍</div>
+          <h3 data-i18n="services.s5.t">كشف وإصلاح التسريبات</h3>
+          <p data-i18n="services.s5.d">تحديد أماكن تسرّب الفريون باستخدام أجهزة كشف متطورة، ومعالجة جذرية للنقاط المتضررة لمنع تكرار المشكلة.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🧊</div>
+          <h3 data-i18n="services.s6.t">صيانة الثلاجات والمبردات</h3>
+          <p data-i18n="services.s6.d">إصلاح الثلاجات المنزلية والفريزرات والمبردات التجارية: مشاكل التبريد، الترموستات، الكومبريسور، والإضاءة الداخلية.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section--alt" id="about">
+    <div class="container grid grid--2 grid--align-center">
+      <div class="about__media">
+        <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=900&q=80&auto=format&fit=crop"
+             alt="فني صيانة تكييف محترف" loading="lazy" />
+        <div class="about__badge">
+          <strong>4.8★</strong>
+          <span data-i18n="about.badgeText">تقييم العملاء</span>
+        </div>
+      </div>
+
+      <div>
+        <span class="eyebrow" data-i18n="about.eyebrow">من نحن</span>
+        <h2 data-i18n="about.title">خبرة محلية يثق بها أهل تبوك</h2>
+        <p data-i18n="about.p1">
+          مؤسسة ركن الوليد للتبريد والتكييف هي ورشة متخصصة تقع في حي الأمير ممدوح بن عبدالعزيز، السليمانية، تبوك. نقدّم خدمات إصلاح وصيانة المكيفات والثلاجات والمبردات بكفاءة عالية، ونؤمن بأن الجودة الحقيقية هي ما يجعل العميل يعود إلينا في كل مرة.
+        </p>
+        <p data-i18n="about.p2">
+          فريقنا من الفنيين المدرّبين يعتمد على أحدث أجهزة التشخيص وقطع الغيار الأصلية فقط، مع التزام صارم بمواعيد التنفيذ ونظافة الموقع. تقييمنا 4.8 على Google لم يأتِ من فراغ — بل ثمرة سنوات من العمل الجاد والصدق مع كل عميل.
+        </p>
+        <ul class="ticks">
+          <li data-i18n="about.t1">فنيون معتمدون وذوو خبرة طويلة</li>
+          <li data-i18n="about.t2">قطع غيار أصلية وضمان على الإصلاح</li>
+          <li data-i18n="about.t3">تسعير شفاف بدون رسوم خفية</li>
+          <li data-i18n="about.t4">التزام بالمواعيد ونظافة الموقع</li>
+        </ul>
+        <a href="tel:+966508301100" class="btn btn--primary" data-i18n="about.cta">☎ تواصل معنا</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-i18n="why.eyebrow">لماذا تختارنا</span>
+        <h2 data-i18n="why.title">أسباب تجعلنا الخيار المفضل</h2>
+        <p data-i18n="why.subtitle">نقدم تجربة خدمة مختلفة تجمع بين الاحترافية، السرعة، والثقة.</p>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="feature">
+          <div class="feature__num">01</div>
+          <h4 data-i18n="why.f1.t">استجابة سريعة</h4>
+          <p data-i18n="why.f1.d">نصل إلى موقعك في أسرع وقت ممكن، خصوصاً في حالات الطوارئ الصيفية.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__num">02</div>
+          <h4 data-i18n="why.f2.t">تسعير عادل</h4>
+          <p data-i18n="why.f2.d">عرض سعر واضح قبل بدء العمل، ولا توجد أي مفاجآت في الفاتورة النهائية.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__num">03</div>
+          <h4 data-i18n="why.f3.t">ضمان حقيقي</h4>
+          <p data-i18n="why.f3.d">جميع أعمالنا مضمونة، وقطع الغيار التي نستخدمها أصلية ومرفقة بضمان المصنّع.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__num">04</div>
+          <h4 data-i18n="why.f4.t">عقود صيانة</h4>
+          <p data-i18n="why.f4.d">عقود سنوية للمنازل والمنشآت تحافظ على أداء أجهزتك وتحميك من الأعطال المفاجئة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section section--alt" id="gallery">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-i18n="gallery.eyebrow">من أعمالنا</span>
+        <h2 data-i18n="gallery.title">لمحات من المشاريع والصيانة</h2>
+        <p data-i18n="gallery.subtitle">صور من بعض أعمال الصيانة والإصلاح التي نفذها فريقنا.</p>
+      </div>
+      <div class="gallery">
+        <figure><img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600&q=80&auto=format&fit=crop" alt="" loading="lazy" /></figure>
+        <figure><img src="https://images.unsplash.com/photo-1631545806609-26eb84d9c9e9?w=600&q=80&auto=format&fit=crop" alt="" loading="lazy" /></figure>
+        <figure><img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&q=80&auto=format&fit=crop" alt="" loading="lazy" /></figure>
+        <figure><img src="https://images.unsplash.com/photo-1635348729567-9e21f6e9c9b1?w=600&q=80&auto=format&fit=crop" alt="" loading="lazy" /></figure>
+        <figure><img src="https://images.unsplash.com/photo-1585351737750-87bf5dbf1a8e?w=600&q=80&auto=format&fit=crop" alt="" loading="lazy" /></figure>
+        <figure><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80&auto=format&fit=crop" alt="" loading="lazy" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow" data-i18n="tst.eyebrow">آراء عملائنا</span>
+        <h2 data-i18n="tst.title">يثقون بنا في كل موسم</h2>
+        <p data-i18n="tst.sub">تقييم 4.8 على Google من عملاء جربوا الخدمة وعادوا إلينا.</p>
+      </div>
+      <div class="grid grid--3">
+        <blockquote class="quote">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="tst.q1">«خدمة ممتازة وسرعة في الاستجابة. الفني محترف ونظيف في عمله، والأسعار معقولة جداً. أنصح بهم.»</p>
+          <footer><strong>عبدالله الحربي</strong><span data-i18n="tst.r1">عميل سكني — تبوك</span></footer>
+        </blockquote>
+        <blockquote class="quote">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="tst.q2">«تعاقدنا معهم على صيانة مكيفات الفرع، والنتيجة فاقت التوقعات. التزام تام بالمواعيد وجودة عالية.»</p>
+          <footer><strong>سارة العتيبي</strong><span data-i18n="tst.r2">مديرة فرع — قطاع تجزئة</span></footer>
+        </blockquote>
+        <blockquote class="quote">
+          <div class="stars">★★★★★</div>
+          <p data-i18n="tst.q3">«اتصلت بهم متأخراً بسبب عطل مفاجئ، وحضروا في نفس اليوم وأصلحوا المشكلة. شكراً لكم.»</p>
+          <footer><strong>محمد الشمري</strong><span data-i18n="tst.r3">صاحب مطعم</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="container grid grid--2 grid--align-start">
+      <div>
+        <span class="eyebrow" data-i18n="contact.eyebrow">تواصل معنا</span>
+        <h2 data-i18n="contact.title">اطلب زيارة فنية الآن</h2>
+        <p data-i18n="contact.subtitle">
+          أرسل لنا بياناتك وسيتواصل معك فريقنا خلال ساعات العمل لتأكيد موعد الزيارة وتقديم عرض السعر، أو اتصل مباشرة على رقمنا أدناه.
+        </p>
+
+        <ul class="info">
+          <li>
+            <span class="i">📍</span>
+            <div>
+              <strong data-i18n="contact.addrT">العنوان</strong>
+              <span data-i18n="contact.addrV">حي الأمير ممدوح بن عبدالعزيز، السليمانية، تبوك 47312</span>
+              <small>Plus Code: CH4H+RC Tabuk</small>
+            </div>
+          </li>
+          <li>
+            <span class="i">☎</span>
+            <div>
+              <strong data-i18n="contact.phoneT">الهاتف</strong>
+              <a href="tel:+966508301100">050 830 1100</a>
+            </div>
+          </li>
+          <li>
+            <span class="i">💬</span>
+            <div>
+              <strong data-i18n="contact.waT">واتساب</strong>
+              <a href="https://wa.me/966508301100" target="_blank" rel="noopener">+966 50 830 1100</a>
+            </div>
+          </li>
+          <li>
+            <span class="i">🕒</span>
+            <div>
+              <strong data-i18n="contact.hoursT">ساعات العمل</strong>
+              <span data-i18n="contact.hoursV">يومياً حتى 11:30 مساءً</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="map">
+          <iframe
+            title="موقع مؤسسة ركن الوليد للتبريد والتكييف"
+            src="https://maps.google.com/maps?q=28.4071235,36.5785327&z=17&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <form class="form" id="contactForm" novalidate>
+        <h3 data-i18n="form.title">طلب خدمة سريع</h3>
+        <p class="form__hint" data-i18n="form.hint">سنتواصل معك في أقرب وقت ممكن.</p>
+
+        <div class="field">
+          <label for="name" data-i18n="form.name">الاسم</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="field">
+          <label for="phone" data-i18n="form.phone">رقم الجوال</label>
+          <input id="phone" name="phone" type="tel" required />
+        </div>
+        <div class="field">
+          <label for="service" data-i18n="form.service">نوع الخدمة</label>
+          <select id="service" name="service">
+            <option data-i18n="form.s.gas">تعبئة فريون</option>
+            <option data-i18n="form.s.elec">فحص كهربائي</option>
+            <option data-i18n="form.s.clean">تنظيف عام</option>
+            <option data-i18n="form.s.therm">معايرة ثرموستات</option>
+            <option data-i18n="form.s.leak">كشف وإصلاح تسريب</option>
+            <option data-i18n="form.s.fridge">صيانة ثلاجة / فريزر</option>
+            <option data-i18n="form.s.other">أخرى</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message" data-i18n="form.message">تفاصيل الطلب</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block" data-i18n="form.submit">إرسال الطلب عبر واتساب</button>
+        <p class="form__note" id="formNote" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand brand--footer">
+          <img src="/assets/img/logo.svg" alt="" class="brand__logo" />
+          <div class="brand__text">
+            <strong data-i18n="brand.name">مؤسسة ركن الوليد</strong>
+            <small data-i18n="brand.tag">للتبريد والتكييف</small>
+          </div>
+        </div>
+        <p data-i18n="footer.about">شريكك الموثوق لخدمات إصلاح وصيانة التكييف والتبريد في تبوك. ابقَ بارداً، تنفّس بنقاء.</p>
+      </div>
+
+      <div>
+        <h5 data-i18n="footer.linksT">روابط سريعة</h5>
+        <ul class="footer__links">
+          <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">المعرض</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">اتصل بنا</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 data-i18n="footer.contactT">تواصل</h5>
+        <ul class="footer__links">
+          <li><a href="tel:+966508301100">050 830 1100</a></li>
+          <li><a href="https://wa.me/966508301100" target="_blank" rel="noopener">واتساب</a></li>
+          <li data-i18n="contact.addrV">حي الأمير ممدوح بن عبدالعزيز، السليمانية، تبوك 47312</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <span>© <span id="year"></span> <span data-i18n="footer.copyright">مؤسسة ركن الوليد للتبريد والتكييف. جميع الحقوق محفوظة.</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-call" href="tel:+966508301100" aria-label="Call now">☎</a>
+  <a class="floating-wa" href="https://wa.me/966508301100" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
