@@ -259,6 +259,34 @@ h5 { color: var(--c-primary); font-weight: 800; margin: 0 0 14px; font-size: 16p
   margin-bottom: 6px;
 }
 .card p { margin: 0; }
+.card--feature {
+  background: linear-gradient(180deg, #ffffff 0%, #f4faff 100%);
+  border-color: #cfe1ee;
+}
+.card--feature .card__icon {
+  background: linear-gradient(135deg, var(--c-primary) 0%, var(--c-accent) 100%);
+  color: #fff;
+  border-color: transparent;
+}
+.card__list {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 14px;
+}
+.card__list li {
+  position: relative;
+  padding-inline-start: 18px;
+  font-size: 14px;
+  color: var(--c-text);
+}
+.card__list li::before {
+  content: "•";
+  position: absolute;
+  inset-inline-start: 0;
+  color: var(--c-accent);
+  font-weight: 900;
+}
 
 /* ---------- Electronics chips ---------- */
 .chips { gap: 14px; }
